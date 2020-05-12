@@ -21,14 +21,17 @@ const userSchema = new mongoose.Schema({
   },
   first_name: String,
   last_name: String,
+  password: String,
+  address: String, // use GeoJSON object
+  date_added: String,
   schedule: {
-    monday: String,
-    tuesday: String,
-    wednesday: String,
-    thursday: String,
-    friday: String,
-    saturday: String,
-    sunday: String,
+    monday: { start: String, end: String },
+    tuesday: { start: String, end: String },
+    wednesday: { start: String, end: String },
+    thursday: { start: String, end: String },
+    friday: { start: String, end: String },
+    saturday: { start: String, end: String },
+    sunday: { start: String, end: String },
   }
 })
 
