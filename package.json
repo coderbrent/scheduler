@@ -23,7 +23,7 @@
     "dotenv": "^8.2.0",
     "emotion": "^10.0.27",
     "emotion-theming": "^10.0.27",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-fileupload": "^1.1.7-alpha.3",
     "express-graphql": "^0.9.0",
     "file-loader": "^6.0.0",
